@@ -4,7 +4,8 @@ DROP TABLE IF EXISTS evolucion_servicios_turisticos;
 CREATE TABLE evolucion_servicios_turisticos AS
 SELECT 
     STRFTIME('%Y', DATE(fecha_de_registro_de_empresa, 'start of day')) AS anio_registro,
-    COUNT(*) AS total_empresas
+    COUNT(*) AS total_empresas,
+    SUM(COUNT(*)) OVER (ORDER BY STRFTIME('%Y', DATE(fecha_de_registro_de_empresa, 'start of day'))) AS empresas_acumuladas
 FROM servicios_turisticos
 WHERE fecha_de_registro_de_empresa IS NOT NULL
 GROUP BY anio_registro
