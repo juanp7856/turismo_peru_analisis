@@ -24,6 +24,7 @@ Fue desarrollado utilizando **SQLite / SQL** para el procesamiento de datos y **
 
 ## 📁 Estructura del proyecto
 
+```
 📦 turismo-peru
 │
 ├── 📂 data/
@@ -59,13 +60,17 @@ Fue desarrollado utilizando **SQLite / SQL** para el procesamiento de datos y **
 ├── turismo_peru.db # Base de datos SQLite
 ├── requirements.txt # Dependencias de Python
 └── README.md
+```
 
 ---
 
 ## 📈 Principales visualizaciones
 
-- 📊 **Evolución de empresas turísticas (1990–2025)**  
+- 📊 **Evolución de empresas turísticas**  
   Crecimiento anual y acumulado de empresas registradas.  
+
+- 🏔️ **Evolución de visitas totales por año**  
+  Muestra el crecimiento de las visitas totales.  
 
 - 🏔️ **Recursos turísticos vs. empresas por región**  
   Muestra el desequilibrio entre oferta natural y empresarial.  
@@ -73,7 +78,7 @@ Fue desarrollado utilizando **SQLite / SQL** para el procesamiento de datos y **
 - 🌿 **Áreas Naturales Protegidas más visitadas**  
   Ranking nacional de ANP por volumen de visitas.  
 
-- 🗺️ **Demanda turística regional (treemap)**  
+- 🗺️ **Demanda turística regional**  
   Estima las regiones con mayor concentración turística.
 
 ---
@@ -118,6 +123,6 @@ python scripts/3_export_temp_tables.py
 
 ## 📚 Fuentes de datos
 
-MINCETUR – Ministerio de Comercio Exterior y Turismo del Perú
-SERNANP – Servicio Nacional de Áreas Naturales Protegidas
-IPERÚ 
+- MINCETUR – Ministerio de Comercio Exterior y Turismo del Perú
+- SERNANP – Servicio Nacional de Áreas Naturales Protegidas
+- IPERÚ 
