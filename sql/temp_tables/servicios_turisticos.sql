@@ -1,3 +1,4 @@
+-- Evolución anual de empresas que brindan servicios turísticos en Perú --
 DROP TABLE IF EXISTS evolucion_servicios_turisticos;
 
 CREATE TABLE evolucion_servicios_turisticos AS

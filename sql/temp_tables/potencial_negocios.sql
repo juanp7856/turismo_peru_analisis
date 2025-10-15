@@ -1,3 +1,4 @@
+-- Potencial de inversión turística en Perú --
 DROP TABLE IF EXISTS potencial_inversion_turistica;
 
 CREATE TABLE potencial_inversion_turistica AS
